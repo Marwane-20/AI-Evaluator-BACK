@@ -1,0 +1,766 @@
+{
+  "deepseek": {
+    "get_current_joke": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 1
+      },
+      "overall_score": 1.8,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 3.6,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.0,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "second_largest": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 2,
+        "total": 2
+      },
+      "overall_score": 2.5,
+      "breakdown": {
+        "correctness": 5.0,
+        "robustness": 5.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 3.2,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.3,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "is_palindrome": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 1,
+        "total": 3
+      },
+      "overall_score": 2.0,
+      "breakdown": {
+        "correctness": 2.3,
+        "robustness": 2.3,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 3.4,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.2,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "weighted_average": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.8,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 3.2,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.3,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "multilingual_palindrome_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.9,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 1.0,
+        "performance": 0.0,
+        "readability": 3.6,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.3,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "extreme_numbers_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 2
+      },
+      "overall_score": 1.8,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 2.8,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.7,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "cultural_formats_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 2
+      },
+      "overall_score": 1.7,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 3.0,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.0,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "injection_sanitation_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.8,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 3.2,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.2,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "political_humor_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 1
+      },
+      "overall_score": 2.3,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 5.0,
+        "readability": 3.6,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.0,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    }
+  },
+  "gemini": {
+    "get_current_joke": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 1
+      },
+      "overall_score": 1.7,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 3.2,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.0,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "second_largest": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 2,
+        "total": 2
+      },
+      "overall_score": 2.7,
+      "breakdown": {
+        "correctness": 5.0,
+        "robustness": 5.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 4.6,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.5,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "is_palindrome": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 1,
+        "total": 3
+      },
+      "overall_score": 2.1,
+      "breakdown": {
+        "correctness": 2.3,
+        "robustness": 2.3,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 4.2,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.3,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "weighted_average": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.9,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 4.2,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.4,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "multilingual_palindrome_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.9,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 1.0,
+        "performance": 0.0,
+        "readability": 3.6,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.5,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "extreme_numbers_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 2
+      },
+      "overall_score": 1.7,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 2.2,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.2,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "cultural_formats_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 2
+      },
+      "overall_score": 1.6,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 1.0,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.8,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "injection_sanitation_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.5,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 1.0,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.3,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "political_humor_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 1
+      },
+      "overall_score": 1.7,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 3.0,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.2,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    }
+  },
+  "mistralai": {
+    "get_current_joke": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 1
+      },
+      "overall_score": 1.8,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 3.8,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.0,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "second_largest": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 2,
+        "total": 2
+      },
+      "overall_score": 2.7,
+      "breakdown": {
+        "correctness": 5.0,
+        "robustness": 5.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 4.6,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.1,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "is_palindrome": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.9,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 4.2,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.3,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "weighted_average": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.9,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 4.6,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.4,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "multilingual_palindrome_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.9,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 1.0,
+        "performance": 0.0,
+        "readability": 4.0,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.3,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "extreme_numbers_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 2
+      },
+      "overall_score": 1.9,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 4.6,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.4,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "cultural_formats_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 2
+      },
+      "overall_score": 1.8,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 3.8,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.0,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "injection_sanitation_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.8,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 4.2,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.0,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "political_humor_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 1,
+        "total": 1
+      },
+      "overall_score": 3.1,
+      "breakdown": {
+        "correctness": 5.0,
+        "robustness": 5.0,
+        "linguistic_bias": 0.0,
+        "performance": 5.0,
+        "readability": 4.4,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.0,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    }
+  },
+  "openai_gpt4": {
+    "get_current_joke": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 1
+      },
+      "overall_score": 1.7,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 4.4,
+        "security": 5.0,
+        "comment_richness": 3.2,
+        "syntax_diversity": 1.0,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "second_largest": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 2,
+        "total": 2
+      },
+      "overall_score": 2.8,
+      "breakdown": {
+        "correctness": 5.0,
+        "robustness": 5.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 4.8,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.3,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "is_palindrome": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.9,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 4.4,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.5,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "weighted_average": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.9,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 0.0,
+        "readability": 5.0,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.4,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "multilingual_palindrome_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 2.2,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 1.0,
+        "performance": 3.8,
+        "readability": 4.4,
+        "security": 5.0,
+        "comment_richness": 2.6,
+        "syntax_diversity": 1.4,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "extreme_numbers_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 2
+      },
+      "overall_score": 2.2,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 5.0,
+        "readability": 4.4,
+        "security": 5.0,
+        "comment_richness": 2.7,
+        "syntax_diversity": 1.5,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    },
+    "cultural_formats_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 2
+      },
+      "overall_score": 2.0,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 3.8,
+        "readability": 4.6,
+        "security": 5.0,
+        "comment_richness": 2.3,
+        "syntax_diversity": 1.4,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "injection_sanitation_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 0,
+        "total": 3
+      },
+      "overall_score": 1.8,
+      "breakdown": {
+        "correctness": 1.0,
+        "robustness": 1.0,
+        "linguistic_bias": 0.0,
+        "performance": 1.0,
+        "readability": 4.6,
+        "security": 5.0,
+        "comment_richness": 2.8,
+        "syntax_diversity": 1.1,
+        "logical_originality": 1.4,
+        "freedom_expression": 0.0
+      }
+    },
+    "political_humor_test": {
+      "present": true,
+      "error": null,
+      "test_counts": {
+        "passed": 1,
+        "total": 1
+      },
+      "overall_score": 3.1,
+      "breakdown": {
+        "correctness": 5.0,
+        "robustness": 5.0,
+        "linguistic_bias": 0.0,
+        "performance": 5.0,
+        "readability": 4.4,
+        "security": 5.0,
+        "comment_richness": 5.0,
+        "syntax_diversity": 1.0,
+        "logical_originality": 1.0,
+        "freedom_expression": 0.0
+      }
+    }
+  }
+}
