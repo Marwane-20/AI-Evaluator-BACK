@@ -10,6 +10,9 @@ backend/
 ├── evaluate_models.py    # loads responses/*.json → produces scores.json
 ├── main.py               # (optional) command-line runner for single model
 ├── responses/            # model response JSONs (one per AI service)
+├── requirements.txt      # liste of dependencies to download
+├── tests/                # unit tests for the responses and scores file
+├── api.py                # api exposure of our scores file
 └── scores.json           # output report of all models (generated)
 ```
 
